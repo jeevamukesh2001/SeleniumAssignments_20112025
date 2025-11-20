@@ -1,0 +1,9 @@
+CREATE TABLE dept (
+  deptID INT PRIMARY KEY,
+  deptName VARCHAR(20)
+);
+
+INSERT INTO dept VALUES (101,'HR');
+INSERT INTO dept VALUES (110,'IT');
+
+SELECT * FROM dept;
